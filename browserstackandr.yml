@@ -11,7 +11,7 @@ buildIdentifier: '${DATE_TIME}'
 framework: testng
 
 
-app: 'bs://c2901ce638a376d14a9e18c8a8ed03c31befad54'
+app: 'bs://369bdbee49fcb0a6bdb90ec5daa2c862e4ad019b'
 
 platforms:
   - platformName: android
