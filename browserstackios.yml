@@ -11,7 +11,7 @@ buildIdentifier: '${DATE_TIME}'
 framework: testng
 
 
-app: 'bs://1030dba41ac131056fe7bbdf3b259661a37d7301'
+app: 'bs://61083ae4d89e9ba41f7eaf5ccfed72d17e9674a0'
 
 platforms:
   - deviceName: iPhone 14
