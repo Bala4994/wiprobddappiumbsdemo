@@ -1,0 +1,36 @@
+13:59:22.103 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.41.0
+13:59:22.110 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+13:59:22.833 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Workplaces\\mobileappsautomationbdd, localrepository=C\:\\Users\\ADMIN PC\\.m2\\repository}
+13:59:22.838 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Workplaces\mobileappsautomationbdd\browserstack.yml
+13:59:23.175 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:59:24.155 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://cbf394af405b8741497520b1e9efd79a23aa3465]
+13:59:24.156 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:59:28.725 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:59:30.788 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:00:30.342 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:00:45.427 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qfxv9zwumtzmo8clacaxxqkax25ucowpx6j6niu9 to view build report, insights, and many more debugging information all at one place!
+
+15:18:39.406 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.41.0
+15:18:39.429 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+15:18:41.185 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Workplaces\\mobileappsautomationbdd, localrepository=C\:\\Users\\ADMIN PC\\.m2\\repository}
+15:18:41.198 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Workplaces\mobileappsautomationbdd\browserstack.yml
+15:18:41.704 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:18:45.853 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://1f84af78ef2879d763349ed50a448d0a89b7c513]
+15:18:45.854 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+15:18:53.403 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:18:54.948 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:20:15.209 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: [Mon, 09 Mar 2026 09:50:09 GMT] Failed to connect to BrowserStackLocal pipe \\.\pipe\browserstack\09_Mar_1518_DESKTOP_DGJEMP8_K0bZdaemonInstance. CPU usage: 58.61, memory usage: 91.76 Trace -- Error: Connect timed out.
+15:20:15.348 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed [Mon, 09 Mar 2026 09:50:09 GMT] Failed to connect to BrowserStackLocal pipe \\.\pipe\browserstack\09_Mar_1518_DESKTOP_DGJEMP8_K0bZdaemonInstance. CPU usage: 58.61, memory usage: 91.76 Trace -- Error: Connect timed out.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+15:20:20.784 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wr4tv63g3kry34fkplk6m7vwcqijqnrd0dxkigsm to view build report, insights, and many more debugging information all at one place!
+
